@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Image rotation</title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data" action="http://127.0.0.1:9090/upload" method="post">
+            <input type="file" name="uploadFile" />
+            <input type="hidden" name="token" value="{{.}}"/>
+            <input type="submit" value="upload" />
+        </form>
+    </body>
+</html>
